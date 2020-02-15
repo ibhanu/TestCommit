@@ -4,7 +4,7 @@ a=0
 GIT=`which git`
 echo Commit message:
 read message
-while [ $a -lt 2 ]
+while [ $a -lt 10 ]
 do
 	touch test.txt
 	echo File Created
