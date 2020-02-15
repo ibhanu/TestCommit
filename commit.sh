@@ -8,7 +8,7 @@ while [ $a -lt 10 ]
 do
 	touch test.txt
 	ls -l
-	echo File Created
+	echo 'File Created' > test.txt
 	${GIT} add --all .
 	${GIT} commit -m "$message"
 	${GIT} push
