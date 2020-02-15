@@ -6,8 +6,8 @@ echo Commit message:
 read message
 while [ $a -lt 10 ]
 do
-	ls -l
 	touch test.txt
+	ls -l
 	echo File Created
 	${GIT} add --all .
 	${GIT} commit -m "$message"
