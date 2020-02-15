@@ -7,16 +7,18 @@ read message
 while [ $a -lt 10 ]
 do
 	touch test.txt
-	ls -l
-	echo 'File Created' > test.txt
+	#ls -l
+	#echo 'File Created' > test.txt
 	${GIT} add --all .
 	${GIT} commit -m "$message"
 	${GIT} push
-	
 	rm -f test.txt
-	echo File Deleted
-	ls -l
+	${GIT} add --all .
+	${GIT} commit -m "$message"
+	${GIT} push
+	#echo File Deleted
+	#ls -l
     a=`expr $a + 1`
 	echo $a
-	sleep 10
+	#sleep 10
 done
