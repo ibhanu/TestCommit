@@ -2,23 +2,17 @@
 
 a=0
 GIT=`which git`
-echo Commit message:
-read message
+#message = "File Changed"
 while [ $a -lt 10 ]
 do
 	touch test.txt
-	#ls -l
-	#echo 'File Created' > test.txt
 	${GIT} add --all .
-	${GIT} commit -m "$message"
+	${GIT} commit -m "File Changed $(date)"
 	${GIT} push
 	rm -f test.txt
 	${GIT} add --all .
-	${GIT} commit -m "$message"
+	${GIT} commit -m "File changed at $(date)"
 	${GIT} push
-	#echo File Deleted
-	#ls -l
-    a=`expr $a + 1`
-	echo $a
-	#sleep 10
+    a=`expr $a + 2`
+	echo "Pushed No: $a "
 done
