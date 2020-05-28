@@ -7,7 +7,7 @@ while [ $a -lt 10 ]
 do
 	touch test.txt
 	${GIT} add --all .
-	${GIT} commit -m "File Changed $(date)"
+	${GIT} commit -m "File Changed at $(date)"
 	${GIT} push
 	rm -f test.txt
 	${GIT} add --all .
