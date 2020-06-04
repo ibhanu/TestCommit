@@ -24,7 +24,7 @@ def run_shell():
         logger.exception("Exception Occurred")
 
 
-schedule.every().day.at("00:42:30").do(run_shell)
+schedule.every().day.at("19:19").do(run_shell)
 
 while True:
     schedule.run_pending()
