@@ -35,3 +35,8 @@ d
 2020-06-13 19:19:35,479 Commit ended
 2020-06-14 19:19:02,960 Running job Every 1 day at 19:19:00 do run_shell() (last run: 2020-06-13 19:19:35, next run: 2020-06-14 19:19:00)
 2020-06-14 19:19:02,963 Commit Started
+2020-06-14 19:19:36,620 Starting new HTTPS connection (1): www.pushsafer.com:443
+2020-06-14 19:19:37,313 https://www.pushsafer.com:443 "POST /api?m=Message&d=25630&i=1&s=4&v=2&t=Hello&u=https%3A%2F%2Fwww.pushsafer.com&ut=Open+Pushsafer&l=0&pr=2&re=60&ex=600&a=1&k=O96xi4uzfIGkzMG3oeDb HTTP/1.1" 200 98
+2020-06-14 19:19:37,315 Commit ended
+2020-06-15 19:19:00,145 Running job Every 1 day at 19:19:00 do run_shell() (last run: 2020-06-14 19:19:37, next run: 2020-06-15 19:19:00)
+2020-06-15 19:19:00,165 Commit Started
