@@ -3,7 +3,7 @@
 a=0
 GIT=`which git`
 #message = "File Changed"
-while [ $a -lt 10 ]
+while [ $a -lt 5 ]
 do
 	touch test.txt
 	${GIT} add --all .

@@ -73,3 +73,8 @@ d
 2020-07-03 19:19:35,439 Commit ended
 2020-07-04 19:19:01,300 Running job Every 1 day at 19:19:00 do run_shell() (last run: 2020-07-03 19:19:35, next run: 2020-07-04 19:19:00)
 2020-07-04 19:19:01,323 Commit Started
+2020-07-04 19:19:34,502 Commit ended
+2020-08-04 12:31:26,399 Logger Started
+2020-08-04 12:35:37,909 Logger Started
+2020-08-04 20:45:40,162 Running job Every 300 to 500 minutes do run_shell() (last run: [never], next run: 2020-08-04 20:45:37)
+2020-08-04 20:45:40,177 Commit Started
